@@ -15,6 +15,7 @@
  */
 
 // Your code goes here...
+export const logMyMessage = (str: string) => console.log(str);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-2"

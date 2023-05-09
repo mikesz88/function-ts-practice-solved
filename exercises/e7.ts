@@ -21,6 +21,19 @@
  */
 
 // Your code goes here...
+export const doesArrayIncludeItemsBetweenVals = ({
+  arr,
+  val1,
+  val2,
+}: {
+  arr: number[];
+  val1: number;
+  val2: number;
+}) => {
+  const isBetween = arr.some((num) => num > val1 && num < val2);
+  if (isBetween) return true;
+  return false;
+};
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-7"

@@ -15,6 +15,7 @@
  */
 
 // Your code goes here...
+export const splitFirstAndLastNames = (str: string): string[] => str.split(' ');
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-9"

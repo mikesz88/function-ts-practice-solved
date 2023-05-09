@@ -16,6 +16,8 @@
  */
 
 // Your code goes here...
+export const getDiffTwentySeven = (num: number) =>
+  num > 27 ? (num - 27) * 2 : 27 - num;
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-13"

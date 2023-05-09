@@ -26,6 +26,17 @@
  */
 
 // Your code goes here...
+interface TotalRoomsAreaArgs {
+  room1: number;
+  room2: number;
+  room3: number;
+}
+
+export const totalRoomsArea = ({
+  room1,
+  room2,
+  room3,
+}: TotalRoomsAreaArgs): number => room1 + room2 + room3;
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-6"

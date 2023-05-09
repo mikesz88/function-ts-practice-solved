@@ -21,6 +21,23 @@
  */
 
 // Your code goes here...
+interface NumObj {
+  num1: number;
+  num2: number;
+}
+
+export function getValueWithConditionOne({ num1, num2 }: NumObj) {
+  const sum = num1 + num2;
+  return num1 === 40 && num2 === 40 ? sum : sum + sum;
+}
+export const getValueWithConditionTwo = ({ num1, num2 }: NumObj) => {
+  const sum = num1 + num2;
+  return num1 === 40 && num2 === 40 ? sum : sum + sum;
+};
+export const getValueWithConditionThree = function ({ num1, num2 }: NumObj) {
+  const sum = num1 + num2;
+  return num1 === 40 && num2 === 40 ? sum : sum + sum;
+};
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-8"

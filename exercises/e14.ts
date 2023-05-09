@@ -18,6 +18,15 @@
  */
 
 // Your code goes here
+export interface NumObj {
+  num1: number;
+  num2: number;
+}
+
+export const sumOfTwoIntegers = ({ num1, num2 }: NumObj) => {
+  const sum = num1 + num2;
+  return num1 === num2 ? sum * 3 : sum;
+};
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-14"

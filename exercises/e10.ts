@@ -19,6 +19,13 @@
  * !!! The function must be exported !!!
  */
 
+// Your code goes here...
+interface Age {
+  age: number;
+}
+
+export const personAge = <T extends Age>(obj: T): number => obj.age;
+
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-10"
 // If the test has all tests passed, switch to the next exercise file

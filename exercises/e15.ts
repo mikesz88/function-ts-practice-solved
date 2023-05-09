@@ -20,6 +20,9 @@
  */
 
 // Your code goes here...
+import { NumObj } from './e14';
+export const isOneOfThemOrTheirSumForty = ({ num1, num2 }: NumObj) =>
+  num1 === 40 || num2 === 40 || num1 + num2 === 40 ? true : false;
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-15"

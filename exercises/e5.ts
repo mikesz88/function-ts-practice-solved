@@ -20,7 +20,13 @@
  * !!! The function must be exported !!!
  */
 
+interface AreaNumbers {
+  sideA: number;
+  sideB: number;
+}
+
 // Your function code starts here...
+export const rectArea = ({ sideA, sideB }: AreaNumbers) => sideA * sideB;
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-5"

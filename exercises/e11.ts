@@ -15,6 +15,10 @@
  * !!! The function must be exported !!!
  */
 
+// Your code goes here...
+export const isNameInArray = (arr: string[], name: string) =>
+  arr.includes(name);
+
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-11"
 // If the test has all tests passed, switch to the next exercise file

@@ -15,6 +15,8 @@
  */
 
 // Your code goes here...
+export const logMyInfo = (name: string, age: number) =>
+  console.log(`My name is ${name}. I am ${age} years old!`);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-4"
